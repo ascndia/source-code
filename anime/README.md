@@ -1,1 +1,1 @@
-()[https://ascndia.github.io/source-code/anime/]
+https://ascndia.github.io/source-code/anime/
