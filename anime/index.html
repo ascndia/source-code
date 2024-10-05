@@ -24,9 +24,10 @@
     <header class="sticky-top">
       <nav class="navbar sticky-top navbar-dark navbar-expand-md">
         <div class="container">
-          <a class="navbar-brand fw-bold" href="#"
+          <a class="navbar-brand d-none d-md-block fw-bold me-4" href="#"
             >RUW<span style="color: yellow">NIME</span>
           </a>
+          <div id="search-wrapper" class=""></div>
           <button
             class="navbar-toggler"
             type="button"
@@ -39,7 +40,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav w-fit ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -69,17 +70,6 @@
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>
@@ -378,8 +368,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script></script>
+    <script src="./dist/bundled.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
